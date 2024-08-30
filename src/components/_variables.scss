@@ -1,0 +1,71 @@
+// Global
+$transition-duration: 150ms !default;
+$primary-color: #3f51b5 !default;
+
+// Media Queries (these variables affect 'hide' classes and grid)
+$breakpoint-s-m: 600px !default;
+$breakpoint-m-l: 900px !default;
+$breakpoint-l-xl: 1200px !default;
+
+// Buttons
+$button-height: 36px !default;
+$button-sides-padding: 16px !default;
+$button-font-size: 14px !default;
+$button-font-weight: 500 !default;
+$button-disabled-background: #dfdfdf !default;
+$button-disabled-color: #9f9f9f !default;
+
+$fab-radius: 64px !default;
+$fab-position: 48px !default;
+
+// Headers
+$header-sides-padding: 32px !default;
+$header-content-width: 100% !default;
+$menu-item-sides-padding: 16px !default;
+
+$large-header-title-height: 64px !default;
+$large-header-title-line-height: $large-header-title-height !default;
+$large-header-nav-height: 64px !default;
+$large-header-height: ($large-header-title-height + $large-header-nav-height) !default;
+
+$compact-header-height: 64px !default;
+
+// Layout
+$page-content-width: 960px !default;
+$page-content-padding-top: 48px !default;
+
+// Cards
+$card-padding: 32px !default;
+$card-margin-bottom: 48px !default;
+$card-image-height: 250px !default; // does not affect .card__image--side
+$card-image-width: 33% !default; // only afects .card__image--side
+$card-image-breakpoint: $breakpoint-s-m; // affects .card__image--responsive
+
+// Typography
+$font-stack: 'Roboto', sans-serif !default;
+$page-font-size: 16px !default;
+$blockquote-margin: 1em !default;
+$blockquote-border-color: $primary-color !default;
+
+// Forms
+$text-field-height: 36px !default;
+$text-field-font-weight: 400 !default;
+$text-field-placeholder-color: rgba(0, 0, 0, .2) !default;
+$text-field-unfocused-color: rgba(0, 0, 0, .5) !default;
+$text-field-color: #757575 !default;
+$text-field-accent-color: $primary-color !default;
+
+// Footer
+$footer-height: 64px !default;
+$footer-content-width: 100% !default;
+$footer-sides-padding: 32px !default;
+$footer-font-size: 12px !default;
+
+// Tooltips
+$tooltip-font-size: 12px !default;
+$tooltip-padding: 8px !default;
+$tooltip-margin: 8px !default;
+
+// Grid
+$cols-number: 3 !default;
+$col-margin: 1% !default; // Only percent values!

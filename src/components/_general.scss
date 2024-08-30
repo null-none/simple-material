@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 $footer-height;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
