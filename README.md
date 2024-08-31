@@ -1,4 +1,4 @@
-# Mini Material
+# Simple Material
 
 ## About
 Mini Material is a simple library of Material Design based elements. It uses only CSS, thus it's small and light. Mini Material is not meant to build your entire site; think of it as a collection of elements to use when needed.
